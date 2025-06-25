@@ -32,10 +32,10 @@ Predecir la especie de una flor iris a partir de medidas morfológicas utilizand
 ---
 
 ## 📁 Estructura del Repositorio
-> clasificacion_arbol_random_forest.ipynb
-> modelo_random_forest.pkl
-> README.md
-> requirements.txt
+- clasificacion_arbol_random_forest.ipynb
+- modelo_random_forest.pkl
+- README.md
+- requirements.txt
 
 ---
 
