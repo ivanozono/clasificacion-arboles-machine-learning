@@ -68,7 +68,7 @@ This project was developed in Google Colab as a demonstration exercise on superv
 
 ⸻
 
-🔄 Possible Improvements
+## 🔄 Possible Improvements
 	•	Use cross-validation and hyperparameter tuning.
 	•	Apply the model to a real-world case (churn, fraud, scoring).
 	•	Deploy as a microservice using FastAPI or Streamlit.
