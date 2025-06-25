@@ -1,14 +1,14 @@
-# 🌳 Clasificación con Árbol de Decisión y Random Forest
+# 🌳 Classification with Decision Tree and Random Forest
 
-Este proyecto demuestra cómo aplicar modelos de clasificación supervisada utilizando **Árboles de Decisión** y **Random Forest** con el dataset clásico de **Iris**, destacando su valor interpretativo y de predicción.
+This project demonstrates how to apply supervised classification models using **Decision Trees** and **Random Forest** with the classic **Iris** dataset, highlighting their interpretability and predictive value.
 
-## 🎯 Objetivo del Proyecto
+## 🎯 Project Objective
 
-Predecir la especie de una flor iris a partir de medidas morfológicas utilizando modelos explicables y robustos, útiles para casos reales en distintos sectores.
+To predict the species of an iris flower based on morphological measurements using interpretable and robust models, applicable to real-world use cases across various industries.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🛠️ Technologies Used
 
 - Python 3
 - Scikit-learn
@@ -18,20 +18,20 @@ Predecir la especie de una flor iris a partir de medidas morfológicas utilizand
 
 ---
 
-## 📊 Flujo del Proyecto
+## 📊 Project Workflow
 
-1. **Carga de datos** con el dataset Iris de `sklearn.datasets`.
-2. **División de datos** en entrenamiento y prueba.
-3. Entrenamiento de un modelo de **Árbol de Decisión**.
-4. Entrenamiento de un **Random Forest** con 100 árboles.
-5. Evaluación de ambos modelos con métricas (accuracy, F1-score, etc.).
-6. **Visualización** del árbol de decisión.
-7. Análisis de **importancia de características** en el Random Forest.
-8. Guardado y carga del modelo entrenado con `joblib`.
+1. **Load the data** using the Iris dataset from `sklearn.datasets`.
+2. **Split the data** into training and test sets.
+3. Train a **Decision Tree** model.
+4. Train a **Random Forest** model with 100 trees.
+5. Evaluate both models using metrics such as accuracy, F1-score, etc.
+6. **Visualize** the decision tree.
+7. Analyze **feature importance** in the Random Forest.
+8. Save and reload the trained model using `joblib`.
 
 ---
 
-## 📁 Estructura del Repositorio
+## 📁 Repository Structure
 - clasificacion_arbol_random_forest.ipynb
 - modelo_random_forest.pkl
 - README.md
@@ -39,37 +39,36 @@ Predecir la especie de una flor iris a partir de medidas morfológicas utilizand
 
 ---
 
-## 📌 Resultados clave
+## 📌 Key Results
 
-- El **Random Forest** obtuvo mayor precisión y generalización que el Árbol de Decisión individual.
-- Se identificaron las variables más importantes para la predicción de especies.
-- El modelo fue guardado y puede ser desplegado o reutilizado sin reentrenamiento.
+- The **Random Forest** achieved higher accuracy and generalization than the individual Decision Tree.
+- The most important variables for species prediction were identified.
+- The model was saved and can be deployed or reused without retraining.
 
 ---
 
-## 🚀 Cómo ejecutar
+## 🚀 How to Run
 
-1. Clona el repositorio:
+1. Clone the repository:
 
 ```bash
-git clone https://github.com/tu_usuario/clasificacion-arboles-machine-learning.git
+git clone https://github.com/your_username/clasificacion-arboles-machine-learning.git
 ```
-2.	Instala las dependencias:
-   ```
+2.	Install the dependencies:
+```
 pip install -r requirements.txt
 ```
-3.	Abre el notebook:
+3.	Open the notebook:
 ```
 jupyter notebook clasificacion_arbol_random_forest.ipynb
 ```
+📚 Credits
 
-📚 Créditos
-
-Este proyecto fue desarrollado en Google Colab como ejercicio demostrativo de clasificación supervisada. Inspirado en buenas prácticas de ciencia de datos aplicadas a problemas reales.
+This project was developed in Google Colab as a demonstration exercise on supervised classification. Inspired by data science best practices applied to real-world problems.
 
 ⸻
 
-🔄 Posibles mejoras
-	•	Usar validación cruzada y ajuste de hiperparámetros.
-	•	Aplicar el modelo a un caso real (churn, fraude, scoring).
-	•	Integrar despliegue como microservicio con FastAPI o Streamlit.
+🔄 Possible Improvements
+	•	Use cross-validation and hyperparameter tuning.
+	•	Apply the model to a real-world case (churn, fraud, scoring).
+	•	Deploy as a microservice using FastAPI or Streamlit.
