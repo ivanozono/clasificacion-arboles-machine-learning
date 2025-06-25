@@ -72,3 +72,12 @@ This project was developed in Google Colab as a demonstration exercise on superv
 	•	Use cross-validation and hyperparameter tuning.
 	•	Apply the model to a real-world case (churn, fraud, scoring).
 	•	Deploy as a microservice using FastAPI or Streamlit.
+---
+
+## 📝 Project Blog
+
+You can read a more detailed explanation of the approach, algorithms, and technical decisions in the following article:
+
+👉 [Decision Trees and Random Forest (Notion Blog)](https://wheat-pulsar-663.notion.site/Decision-Trees-y-Random-Forest-215f96ec2e1080e98e78d3c2b335ec9c)
+
+Ideal for understanding the logic behind the code and its applications to real-world problems.
